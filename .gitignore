@@ -1,0 +1,12 @@
+node_modules
+.env*
+*.txt
+tmp
+files
+public/schema.prisma
+tests
+demo.*
+ingredients.json
+links.*
+newLinks*
+test.*

@@ -1,0 +1,29 @@
+{
+  "name": "better-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "NODE_ENV=local nodemon server.js",
+    "local:dev": "NODE_ENV=local-staging nodemon server.js",
+    "local:prod": "NODE_ENV=local nodemon server.js",
+    "dev": "NODE_ENV=staging nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hugojosefson/merge-html": "^3.0.0",
+    "body-parser": "^1.20.0",
+    "cheerio": "^1.0.0-rc.11",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "json2csv": "^5.0.7",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.5",
+    "recipe-scraper": "^2.1.1",
+    "recippad-scraper": "^1.0.6",
+    "uuid": "^8.3.2",
+    "x-ray": "^2.3.4"
+  }
+}
